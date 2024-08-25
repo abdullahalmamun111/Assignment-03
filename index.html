@@ -33,7 +33,7 @@
 <body class="font-manrope">
     <!-- header section start  -->
  <header class="lg:px-14 md:px-4 px-1 mx-auto pt-[50px] pb-[40px] bg-white">
-<div class="max-w-screen-xl">
+<div class="">
 <nav>
     <div class="navbar">
         <div class="navbar-start">
@@ -56,12 +56,38 @@
         </div>
         <div class="flex">
         <button class="bg-[#ABEF5F]  md:w-[211px] px-[20px] h-[55px] text-[20px] py-[12px] font-bold text-[#1c1c1c] rounded-full  hidden md:flex">Book Consult <i class=" fa-solid fa-arrow-right text-white -rotate-45 text-[16px] bg-[#1c1c1c] px-2 py-2 rounded-[100%] ml-[8px] "></i></button>
-        <i class="fa-solid fa-bars text-[#737373] text-[24px] lg:hidden  bg-[#FFFFFF] p-3 ml-1 rounded-full shadow-md"></i>
+
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="lg:hidden text-[#737373] text-[24px] bg-[#FFFFFF] p-3 rounded-full shadow-md md:ml-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5  text-[24px]  rounded-full"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-36 p-2  shadow -ml-20">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
         </div>
-        </div>
+        
+    </div>
+    </div>
     </div>
     </nav>
-
+   <!-- hero section -->
     <div class="hero ">
         <div class="hero-content text-center flex flex-col">
             <div>
@@ -81,7 +107,7 @@
  <!-- section two amaizing home -->
   <section class="lg:px-14 md:px-4 px-1 mx-auto  pb-[50px] bg-[#f4f4f4] pt-5">
     <img class="hidden md:flex" src="assets/Vector.png" alt="">
-  <div class="max-w-screen-xl px-4 py-1 lg:px-14 lg:py-4 md:flex ">
+  <div class=" px-4 py-1 lg:px-14 lg:py-4 md:flex ">
    <div class=" md:w-[50%] md:space-y-6 space-y-6 ">
     <div class="text-center md:text-start">
         <button class=" m-auto py-[8px] px-[16px] bg-[#FFFFFF] rounded-full text-[#494949]"><i class="fa-solid fa-arrow-right"></i> About Us</button>
@@ -118,7 +144,7 @@
 
    <!-- work process section -->
     <section class="lg:px-14 md:px-4 px-1 mx-auto pt-[40px]  md:pb-[50px] bg-[#E9E9E9] md:bg-[#f4f4f4]">
-      <div class="max-w-screen-xl px-4 py-1 lg:px-14 lg:py-4 space-y-5">
+    <div class=" px-4 py-1 lg:px-14 lg:py-4 space-y-5">
       <div class="text-center">
         <button class=" m-auto py-[8px] px-[16px] bg-[#FFFFFF] rounded-full text-[#494949]"><i class="fa-solid fa-arrow-right mr-2"></i>How We Works</button>
       </div>
@@ -127,37 +153,37 @@
         <div class="card  text-primary-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           <!-- card1 -->
             <div class="card-body bg-[#E7C1D3] rounded-xl">
-                <img class="w-[30px] h-[26px]" src="assets/concept.png" alt="">
+                <img class="w-[48px] h-[48px]" src="assets/concept.png" alt="">
               <h2 class="card-title text-[20px] font-[800] text-[#1C1C1C]">Concept</h2>
               <p class="text-base font-[500] text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
             <!-- card 2 -->
             <div class="card-body bg-[#EFDA6E] rounded-xl">
-                <img class="w-[30px] h-[26px]" src="assets/flow-chart.png" alt="">
+                <img class="w-[48px] h-[48px]" src="assets/flow-chart.png" alt="">
               <h2 class="card-title text-[20px] font-[800] text-[#1C1C1C]">Design Process</h2>
               <p class="text-base font-[500] text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
             <!-- card 3 -->
             <div class="card-body bg-[#A4DAC3] rounded-xl">
-                <img class="w-[30px] h-[26px]" src="assets/vision.png" alt="">
+                <img class="w-[48px] h-[48px]" src="assets/vision.png" alt="">
               <h2 class="card-title text-[20px] font-[800] text-[#1C1C1C]">Supervision</h2>
               <p class="text-base font-[500] text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
             <!-- card 4 -->
             <div class="card-body bg-[#77AAEA] rounded-xl">
-                <img class="w-[30px] h-[26px]" src="assets/budget-planning.png" alt="">
+                <img class="w-[48px] h-[48px]" src="assets/budget-planning.png" alt="">
               <h2 class="card-title text-[20px] font-[800] text-[#1C1C1C]">Budget Planning</h2>
               <p class="text-base font-[500] text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
         </div>
-      </div>  
+    </div>  
     </section>
     <!-- work process section end -->
 
     <!-- our latest portfolio section start -->
 
     <section class="lg:px-14 md:px-4 px-1 mx-auto pb-[30px] md:pb-0 bg-[#E9E9E9] md:bg-[#FFFFFF] ">
-    <div class="max-w-screen-xl px-4 py-1 lg:px-14 lg:py-4 space-y-5">
+    <div class=" px-4 py-1 lg:px-14 lg:py-4 space-y-5">
     <div class="text-center">
     <button class=" m-auto py-[8px] px-[16px] bg-[#ABEF5F33] rounded-full text-[#494949] mt-5"><i class="fa-solid fa-arrow-right mr-2"></i>Explore our Latest works</button>
     </div>
@@ -196,7 +222,7 @@
     <!-- our latest portfolio section end -->
      <!-- Articles And News section start -->
     <section class="lg:px-14 md:px-4 px-1 mx-auto  pb-[50px] bg-[#E9E9E9]">
-    <div class="max-w-screen-xl px-4 py-1 lg:px-14 lg:py-4 space-y-5">
+    <div class=" px-4 py-1 lg:px-14 lg:py-4 space-y-5">
     <div class="text-center">
       <button class=" m-auto py-[8px] px-[16px] bg-[#ABEF5F33] rounded-full text-[#494949] mt-5"><i class="fa-solid fa-arrow-right mr-2"></i>Rinterio News</button>
       </div>
@@ -263,10 +289,251 @@
     </div>
     </section>
     <!-- Articles And News Section End -->
-
+    <!--unique section start -->
+    <section class="lg:px-14 md:px-4 px-1 mx-auto  pb-[50px] bg-[#E9E9E9]">
+      <div class=" px-4 py-1 lg:px-14 lg:py-4 space-y-5">
+        <h1 class="md:text-[40px] text-[24px] font-[900] text-[#212121] text-center m-auto w-3/4 md:w-full">Our Happy Clients</h1>
+        <p class="md:text-[15px] text-[14px] font-[500] text-[#494949] mx-auto md:w-3/5 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ">
+      <!-- card 1 -->
+      <div class=" items-center text-center space-y-3 bg-white py-4 rounded-xl">
+        <div class="avatar">
+          <div class="w-40 rounded-full">
+            <img src="assets/client1.jpg" />
+          </div>
+        </div>
+        <p class="text-base">Slate helps you see how <br>
+          many more days you need <br>
+          to work to reach your financial <br>
+          goal for the month and year.</p>
+          <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="text-[#23A6F0]">John Brook</p>
+            <p>Banker</p>
+   </div>
+  <!-- card 2 -->
+   <div class="items-center text-center space-y-3 bg-white py-4 rounded-xl">
+    <div class="avatar">
+      <div class="w-40 rounded-full">
+        <img src="assets/client2.jpg" />
+      </div>
+    </div>
+    <p class="text-base">Slate helps you see how <br>
+      many more days you need <br>
+      to work to reach your financial <br>
+      goal for the month and year.</p>
+      <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-400"
+            checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-400"
+            checked="checked" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <p class="text-[#23A6F0]">Regina Miles</p>
+        <p>Banker</p>
+  </div>
+  <!-- card 3 -->
+  <div class=" items-center text-center space-y-3 bg-white py-4 rounded-xl">
+  <div class="avatar">
+    <div class="w-40 rounded-full">
+      <img src="assets/client3.jpg" />
+    </div>
+  </div>
+  <p class="text-base">Slate helps you see how <br>
+    many more days you need <br>
+    to work to reach your financial <br>
+    goal for the month and year.</p>
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <p class="text-[#23A6F0]">Ada Lovles</p>
+      <p>Banker</p>
+  </div>
+  <!-- card 4 -->
+  <div class=" items-center text-center space-y-3 bg-white py-4 rounded-xl">
+  <div class="avatar">
+    <div class="w-40 rounded-full">
+      <img src="assets/client4.jpg" />
+    </div>
+  </div>
+  <p class="text-base">Slate helps you see how <br>
+    many more days you need <br>
+    to work to reach your financial <br>
+    goal for the month and year.</p>
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <p class="text-[#23A6F0]">Lary Parker</p>
+      <p>Banker</p>
+  </div>
+  <!-- card 5 -->
+  <div class=" items-center text-center space-y-3 bg-white py-4 rounded-xl">
+  <div class="avatar">
+    <div class="w-40 rounded-full">
+      <img src="assets/client5.jpg" />
+    </div>
+  </div>
+  <p class="text-base">Slate helps you see how <br>
+    many more days you need <br>
+    to work to reach your financial <br>
+    goal for the month and year.</p>
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <p class="text-[#23A6F0]">Regina Miles</p>
+      <p>Banker</p>
+  </div>
+  <!-- card 6 -->
+  <div class=" items-center text-center space-y-3 bg-white py-4 rounded-xl">
+  <div class="avatar">
+    <div class="w-40 rounded-full">
+      <img src="assets/client6.jpg" />
+    </div>
+  </div>
+  <p class="text-base">Slate helps you see how <br>
+    many more days you need <br>
+    to work to reach your financial <br>
+    goal for the month and year.</p>
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <p class="text-[#23A6F0]">Regina Miles</p>
+      <p>Banker</p>
+  </div>
+  <!-- card 7 -->
+  <div class=" items-center text-center space-y-3 bg-white py-4 rounded-xl">
+  <div class="avatar">
+    <div class="w-40 rounded-full">
+      <img src="assets/client7.jpg" />
+    </div>
+  </div>
+  <p class="text-base">Slate helps you see how <br>
+    many more days you need <br>
+    to work to reach your financial <br>
+    goal for the month and year.</p>
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <p class="text-[#23A6F0]">Regina Miles</p>
+      <p>Banker</p>
+  </div>
+  <!-- card 8 -->
+   <div class=" items-center text-center space-y-3 bg-white py-4 rounded-xl">
+   <div class="avatar">
+    <div class="w-40 rounded-full">
+      <img src="assets/client3.jpg" />
+    </div>
+   </div>
+   <p class="text-base">Slate helps you see how <br>
+    many more days you need <br>
+    to work to reach your financial <br>
+    goal for the month and year.</p>
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <p class="text-[#23A6F0]">Regina Miles</p>
+      <p>Banker</p>
+    </div>
+    </div>
+    </div>
+    </section>
+      <!--unique section end -->
     <!-- Discuss section start -->
     <section class="lg:px-14 md:px-4 px-1 mx-auto  pb-[50px] bg-[url(assets/bg.jpg)] bg-cover">
-    <div class="max-w-screen-xl px-4 py-1 lg:px-14 lg:py-4 space-y-5">
+    <div class=" px-4 py-1 lg:px-14 lg:py-4 space-y-5">
     <div class="text-center">
       <button class=" m-auto py-[8px] px-[16px] bg-[#ABEF5F33] rounded-full text-[#494949] mt-5"><i class="fa-solid fa-arrow-right mr-2"></i>Let’s Connect</button>
       </div>
@@ -292,7 +559,7 @@
     <!-- footer section start from here -->
 
     <section class="lg:px-14 md:px-4 px-1 mx-auto  py-[100px] bg-[#1C1C1C]">
-    <div class="max-w-screen-xl px-4 py-1 lg:px-14 lg:py-4 space-y-5">
+    <div class="px-4 py-1 lg:px-14 lg:py-4 space-y-5">
       <footer class="footer footer-center ">
       <div class="flex">
       <i class="fa-solid fa-arrow-right -rotate-45 text-[16px] bg-[#ABEF5F] px-2 py-2 rounded-full"></i>
